@@ -6,7 +6,7 @@
 
 int main()
 {
-    
+    std::cout << "test git" <<endl;
     ThreadPool pool(4);
     std::vector< std::future<int> > results;
 
